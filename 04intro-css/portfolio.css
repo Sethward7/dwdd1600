@@ -1,0 +1,147 @@
+/* General Styles */
+body {
+    background-color: #000000;
+    color: #d6caf2;
+    font-family: "Red Hat Text", sans-serif;
+    
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #f0e6ff;
+}
+/* Navigation Bar Styles */
+nav {
+    background-color: #392259;
+    padding: 20px 0;
+    margin-bottom: 24px;
+    border-radius: 8px;
+    position: sticky;
+    top: 0;
+
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+nav ul li a {
+    background-color: #8850bf;
+    text-decoration: none;
+    color: #ffffff;
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 4px;
+    font-size: large;
+
+}
+nav ul li a:hover {
+    background-color: #a678e1;
+}
+nav ul li.active a {
+    background-color: #d6caf2;
+    color: #190f26;
+    font-weight: bold;
+}
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav ul li.contact {
+    margin-left: auto;
+}
+
+nav ul li.contact a {
+    background-color: #000000;
+}
+/* Header Styles */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+}
+header p {
+    text-align: center;
+    padding: 20px 0;
+    max-width: 600px;
+    margin: 0 auto;
+}
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+header a {
+    color: #8850bf;
+    text-decoration: none;
+}
+header a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+header .montoya {
+    text-decoration: line-through;
+}
+
+/*main content styles*/
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+main a {
+    color: #8850bf;
+    text-decoration: none;
+}
+main a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+.updates {
+    list-style-type: circle;
+    border: #5A378C 2px solid;
+    border-radius: 10px;
+    padding: 15px;
+}
+.updates li {
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+dl {
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #8850bf;
+}
+dl dt {
+    font-weight: bold;
+    color: #f0e6ff;
+    margin-top: 10px;
+}
+
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #aaa;
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+
+}
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+footer a {
+    color: #d6caf2;
+}
+footer a:hover {
+    color: #ffffff;
+}
