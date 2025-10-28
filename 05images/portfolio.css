@@ -1,0 +1,261 @@
+/* General Styles */
+body {
+    background-color: #0E0816;
+    color: #d6caf2;
+    font-family: "Red Hat Text", sans-serif;
+    
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #f0e6ff;
+}
+/* Navigation Bar Styles */
+nav {
+    background-color: #392259;
+    margin-top: 0px;
+    border-radius: 7px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 0;
+    height: 80px;
+}
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  font-size: large;
+  background-color: #8850bf;
+  padding: 12.5px;
+  border-radius: 5px;
+}
+
+nav ul li:first-child a {
+  background: none;
+  padding: 0;
+}
+
+nav ul li a:hover {
+    background-color: #a678e1;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+nav ul li:first-child a:hover{
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0;
+}
+nav a:hover .logo{
+    transform: scale(1.5);
+    transition: transform 0.3s ease;
+
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+    vertical-align: middle;
+    border-radius: 50px;
+}
+nav ul li.active a.active{
+    background-color: #d6caf2;
+    color: #190f26;
+    font-weight: bold;
+}
+nav ul li.active a.active:hover{
+    background-color: #d6caf2;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+
+}
+header p {
+    text-align: center;
+    padding: 20px 0;
+    max-width: 600px;
+    margin: 0 auto;
+}
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+header a {
+    color: #8850bf;
+    text-decoration: none;
+}
+header a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+header .montoya {
+    text-decoration: line-through;
+}
+header.home-header .header-content{
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+}
+
+header.home-header .header-content p {
+    max-width: 30%;
+    margin: 0;
+    text-align: center;
+}
+
+header.home-header figure {
+    max-width: 15%;
+    margin: 0;
+    text-align: center;
+
+}
+.header-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+/*main content styles*/
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+main a {
+    color: #8850bf;
+    text-decoration: none;
+}
+main a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+.updates {
+    list-style-type: circle;
+    border: #5A378C 2px solid;
+    border-radius: 10px;
+    padding: 15px;
+}
+.updates li {
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+dl {
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #8850bf;
+}
+dl dt {
+    font-weight: bold;
+    color: #f0e6ff;
+    margin-top: 10px;
+}
+/*Card Styles*/
+.gallery {
+    display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 24px;
+  justify-items: center;
+}
+.card {
+    background-color: #292b2f;
+    max-width: 200px;
+    margin: 24px auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.project-image-all {
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+#project-image1{
+    width: 200px;
+    height: auto;
+}
+#project-image2{
+    width: 200px;
+    height: auto;
+}
+#project-image3{
+    width: 200px;
+    height: auto;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+
+.container {
+  padding: 2px 8px 2px 8px;
+}
+/*GALLERY Styles*/
+.insanity{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.insanity img{
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    
+}
+.insanity figure{
+    text-align: center;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #aaa;
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+    
+}
+footer a {
+    color: #d6caf2;
+}
+footer a:hover {
+    color: #ffffff;
+}
+footer a:hover .logo{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
