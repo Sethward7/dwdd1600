@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Seth Henry Ward">
+    <meta name="description" content="Me doing the assignment for Unit 5: Images :missilecrisis:">
+    <link rel="stylesheet" href="../portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+    <title>Image Gallery</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="../index.html"><img src="../images/logo.png" alt="Site Logo" class="logo"></a></li>
+            <li><a href="../about.html">About Me</a></li>
+            <li class="active"><a class="active"href="../projects.html">Projects</a></li>
+            <li><a href="../faq.html">FAQ</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Image Gallery</h1>
+        <p>This is an image gallery for Unit05 Images assignment. Take no mind of the chosen images and their captions, I'm feeling better now :)</p>
+    </header>
+    <main>
+        <div class="insanity">
+            <figure>
+                <img src="../images/letter_i.webp" alt="The letter I" loading="lazy">
+                <figcaption>I</figcaption>
+            </figure>
+            <figure>
+                <img src="../images/am.webp" alt="A clock showing AM" loading="lazy">
+                <figcaption>Am</figcaption>
+            </figure>
+            <figure>
+                <img src="../images/going.webp" alt="I circle of boys with the word going and then Vol.2 under that" loading="lazy">
+                <figcaption>Going</figcaption>
+            </figure>
+            <figure>
+                <img src="../images/insane.webp" alt="The word insane" loading="lazy">
+                <figcaption>Insane</figcaption>
+            </figure>
+            <figure>
+                <img src="../images/yippee-creature.gif" alt="the yippee creature i have no idea how to describe it">
+                <figcaption>Yippee!!!</figcaption>
+            </figure>
+            <figure>
+                <img src="../images/update.webp" alt="update" loading="lazy">
+                <figcaption>Update:</figcaption>
+            </figure>
+            <figure>
+                <img src="../images/im.webp" alt="I'm" loading="lazy">
+                <figcaption>I'm</figcaption>
+            </figure>
+            <figure>
+                <img src="../images/tired.webp" alt="tired?" loading="lazy">
+                <figcaption>Tired?</figcaption>
+            </figure>
+        </div>
+    </main>
+    <footer>    
+        <hr>
+        <ul>
+            <li><a href="index.html"><img src="images/logo.png" alt="Site Logo" class="logo"></a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <address>
+            Contact me at: <a href="mailto:110654247@uvu.edu">110654247@uvu.edu</a><br>
+            or call me at: <a href="tel:+12484345508">+1 (248) 434-5508</a>
+        </address>
+        <p>&bull; Copyright &copy; <span id="year"></span> Seth Ward</p>
+        <script>
+            document.getElementById('year').textContent = new Date().getFullYear();
+        </script>
+    </footer>
+</body>
+</html>
