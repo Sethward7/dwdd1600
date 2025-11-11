@@ -67,20 +67,23 @@ nav a:hover .logo{
     transition: transform 0.3s ease;
 
 }
-
+nav.nav-essay{
+    position: static;
+}
 .logo {
     height: 75px;
     width: auto;
     vertical-align: middle;
 }
-nav ul li.active a.active{
+nav ul li a.active{
     background-color: #d6caf2;
     color: #190f26;
     font-weight: bold;
 }
-nav ul li.active a.active:hover{
+nav ul li a.active:hover{
     background-color: #d6caf2;
 }
+
 }/*end big nav*/
 /* Small Navigation Bar Styles */
 @media only screen and (max-width: 600px){
@@ -263,6 +266,10 @@ dl dt {
     width: 200px;
     height: auto;
 }
+#project-image4{
+    width: 200px;
+    height: auto;
+}
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     transform: scale(1.05);
@@ -303,6 +310,41 @@ dl dt {
 
 main h2{
     text-align: center;
+}
+/*Essay Styles*/
+.essay-body{
+    background-color: white;
+    color: black;
+
+}
+.essay-body main{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+}
+.essay-body p{
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+main .page{
+    border: black 1px solid;
+    padding: .5in 1in 1in 1in;
+    line-height: 2;
+    margin-bottom: 1in;
+    
+    
+}
+main .page-number{
+    text-align: right;
+}
+main .essay-title{
+    text-align: center;
+}
+main .essay-p{
+    text-indent: .5in;
+}
+main .essay-cite{
+    text-indent: -.5in;
 }
 
 /* Contact Form Styles */
@@ -403,4 +445,10 @@ footer a:hover {
 footer a:hover .logo{
     transform: scale(1.05);
     transition: transform 0.3s ease;
+}
+footer.foot-essay {
+    color: black;
+}
+footer.foot-essay a{
+    color:  #8850BF;
 }
