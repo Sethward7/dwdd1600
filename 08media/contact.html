@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Seth Henry Ward">
+    <meta name="description" content="The Best Worst Site You'll Ever See :missilecrisis:">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Contact</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html"><img src="images/logo.png" alt="Site Logo" class="logo"></a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="likes.html">Likes</a></li>
+            <li><a href="fun-stuff.html">Fun Stuff</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+
+    </nav>
+        <header>
+        <h1>Contact Me </h1>
+        <p>Oh? You want to contact me? Please fill out this form and we can get in touch!</p>
+       <br>
+    </header>
+    <main>
+        <form action="thanks.html" method="get" class="cform">
+            <fieldset>
+                <legend>Contact Essentials</legend>
+                <!--Is this part the same as the follow along assignment? maybe. But all contact forms need this part.-->
+                <label>
+                    First Name:
+                    <input name="fname" type="Text" required>
+                </label>
+                <label>Last Name:
+                <input type="text" name="lname"  required>
+                </label>
+                <label>Phone:
+                    <input type="tel" name="phone"  required>
+                </label>
+                <label>Email:
+                    <input type="email" name="email" required>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Relation Information</legend>
+                    What is your relation to me?
+                    <label>
+                        <input type="checkbox" name="teacher">Teacher
+                    </label>
+                    <label>
+                        <input type="checkbox" name="friend">Friend
+                    </label>
+                    <label>
+                        <input type="checkbox" name="client">Client
+                    </label>
+                    <label>
+                        <input type="checkbox" name="family">Family
+                    </label>
+                    <label>
+                        <input type="checkbox" name="lover">Lover?
+                    </label>
+                    <label>
+                        <input type="checkbox" name="hater">Hater
+                    </label>
+                    <label>
+                        <input type="checkbox" name="seth testing the code">Seth testing the code
+                    </label>
+                    <label>
+                        <input type="checkbox" name="other">Other
+                    </label>
+            </fieldset>
+            <fieldset>
+                <legend>Quick Questions</legend>
+                <label>
+                    Whats you favorite color?
+                    <select name="color">
+                        <option value="none">--Select--</option>
+                        <option value="red">Red</option>
+                        <option value="orange">Orange</option>
+                        <option value="yellow">Yellow</option>
+                        <option value="green">Green</option>
+                        <option value="blue">Blue</option>
+                        <option value="purple">Purple</option>
+                        <option value="other">Other</option>
+                    </select>
+                </label>
+                <label>
+                    What's your favorite sport to watch?
+                    <select name="sport">
+                        <option value="none">--Select--</option>
+                        <option value="football">Football</option>
+                        <option value="hockey">Hockey</option>
+                        <option value="baseball">Baseball</option>
+                        <option value="basketball">Basketball</option>
+                        <option value="curling">Curling</option>
+                        <option value="soccer">Football (Real)</option>
+                        <option value="other">Other</option>
+                    </select>
+                </label>
+                <label>
+                    What's you favorite single digit number?
+                    <select name="number">
+                        <option value="none">--Select--</option>
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Final Question</legend>
+                <label>
+                    Do you like my site?
+                    <input type="radio" name="like" value="yes" required> Yes
+                </label>
+                <label>
+                    <input type="radio" name="like" value="yes"> Yes (again)
+                </label>
+                <label>
+                    Additional Comments:
+                    <textarea name="comments" placeholder="Enter your comments here..."></textarea>
+                </label>
+            </fieldset>
+            <input type="submit" value="The Complete Form Button">
+
+        </form>
+    </main>
+    <footer>    
+        <hr>
+        <ul>
+            <li><a href="index.html"><img src="images/logo.png" alt="Site Logo" class="logo"></a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="likes.html">Likes</a></li>
+            <li><a href="fun-stuff.html">Fun Stuff</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+            Contact me at: <a href="mailto:110654247@uvu.edu">110654247@uvu.edu</a><br>
+            or call me at: <a href="tel:+12484345508">+1 (248) 434-5508</a>
+        </address>
+        <p>&bull; Copyright &copy; <span id="year"></span> Seth Ward</p>
+        <script>
+            document.getElementById('year').textContent = new Date().getFullYear();
+        </script>
+    </footer>
+</body>
+</html>

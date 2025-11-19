@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Seth Henry Ward">
+    <meta name="description" content="The Best Worst Site You'll Ever See :missilecrisis:">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Projects</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html"><img src="images/logo.png" alt="Site Logo" class="logo"></a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a class="active" href="projects.html">Projects</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="likes.html">Likes</a></li>
+            <li><a href="fun-stuff.html">Fun Stuff</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+    </nav>
+    <header>
+        <h1>Projects</h1>
+        <p>Hey, look its my projects! I have more than I remember. Anyway, check them out. I ordered them by date, with the most recent first, and I've put star next to my favorites.</p>
+    </header>
+    <main>
+        <h2>Project Gallery</h2>
+        <div class="gallery">
+            <div class="card">
+                <a href="https://github.com/Sethward7/portfolio" target="_blank">
+                    <img id="project-image1" class="project-image-all" src="images/port1.png" alt="A screenshot of a project">
+                    <div class="container">
+                        <h4><strong>Portfolio Website 1</strong></h4>
+                        <p>This is the original portfolio website I created. I'm happy with how the code turned out, but not happy with the design / colors.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://github.com/Sethward7/West-Jordan-swim" target="_blank">
+                    <img id="project-image2" class="project-image-all" src="images/swim-site.png" alt="A screenshot of a project">
+                    <div class="container">
+                        <h4><strong>Mock West Jordan Swim Site</strong></h4>
+                        <p>This site was created as a mockup for the swim team I used to swim with. It was my first full website project and I'm relatively happy with how it turned out.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="projects/animation.html">
+                    <img id="project-image3" class="project-image-all" src="images/purple-guy.png" alt="A screenshot of a project">
+                    <div class="container">
+                        <h4><strong>Purple guy animation</strong></h4>
+                        <p><em>PURPLE GUY?!?!?</em>-Markiplier.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="projects/gallery.html">
+                    <img id="project-image3" class="project-image-all" src="images/gallery.webp" alt="A stock image of a frame">
+                    <div class="container">
+                        <h4><strong>Image Gallery</strong></h4>
+                        <p>This is a image gallery for Unit05 Images assignment.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="projects/essay1.html">
+                    <img id="project-image4" class="project-image-all" src="images/essay.jpeg" alt="A screenshot of a project">
+                    <div class="container">
+                        <h4><strong>Essay</strong></h4>
+                        <p>I wanted to see if I could put one of my essays on the site with the proper CSS to look and feel like a MLA essay.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <h2 style="text-align: center;">More Coming!</h2>
+        <p style="text-align: center;">Hopefully, maybe</p>
+    </main>
+    <footer>    
+        <hr>
+        <ul>
+            <li><a href="index.html"><img src="images/logo.png" alt="Site Logo" class="logo"></a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="likes.html">Likes</a></li>
+            <li><a href="fun-stuff.html">Fun Stuff</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <address>
+            Contact me at: <a href="mailto:110654247@uvu.edu">110654247@uvu.edu</a><br>
+            or call me at: <a href="tel:+12484345508">+1 (248) 434-5508</a>
+        </address>
+        <p>&bull; Copyright &copy; <span id="year"></span> Seth Ward</p>
+        <script>
+            document.getElementById('year').textContent = new Date().getFullYear();
+        </script>
+    </footer>
+</body>
+</html>

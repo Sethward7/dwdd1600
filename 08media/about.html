@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Seth Henry Ward">
+    <meta name="description" content="The Best Worst Site You'll Ever See :missilecrisis:">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <title>About me</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html"><img src="images/logo.png" alt="Site Logo" class="logo"></a></li>
+            <li><a class="active" href="about.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="likes.html">Likes</a></li>
+            <li><a href="fun-stuff.html">Fun Stuff</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+    </nav>
+        <header>
+        <h1>About Me</h1>
+        <p>Hello! This is my about me page. That's all. Um yeah. Have fun</p>
+        <figure><img src="images/hero.webp" alt="sick picture of me swimming" width="1024" height="683" class="about-hero"></figure>
+       <br>
+    </header>
+    <main>
+        <h2>Who am I?</h2>
+        <p>My name is Seth Ward. I'm a web development student at UVU. I'm 18 years old, and I love swimming, video games, and coding. I have been coding for about a year and a half and pretty happy with how far i've come so far.</p>
+        <br>
+        <h2>What are my goals?</h2>
+        <p>Graduate with Bachelors in web development and design and then work as a web developer. Those are goals very far into the future, but everything I do now is a push towards them.</p>
+        <br>
+        <h2>Fun Facts About Me</h2>
+        <ul class="fun-facts">
+            <li>
+                <figure>
+                    <img src="images/flag.webp" alt="me showing my insane intellect">
+                    <figcaption>I can name every country flag in the world.</figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/shinx.webp" alt="Shinx">
+                    <figcaption>My favorite Pokemon is Shinx.</figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/darker.webp" alt="me playing horror games">
+                    <figcaption>I play horror video games just to feel something.</figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/booth.webp" alt="me doing stage tech">
+                    <figcaption>I did stage tech for every year of high school.</figcaption>
+                </figure>
+            </li>
+        </ul>
+        
+        <h2>My favorite things</h2>
+        <ul class="favs">
+            <li><b>Color:</b> Purple</li>
+            <li><b>Food:</b> Muffins</li>
+            <li><b>Movie:</b> The Prestige</li>
+            <li><b>Game:</b> Cult of the Lamb</li>
+            <li><b>Music:</b> Nu-metal</li>
+        </ul>
+    </main>
+    <footer>    
+        <hr>
+        <ul>
+            <li><a href="index.html"><img src="images/logo.png" alt="Site Logo" class="logo"></a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="likes.html">Likes</a></li>
+            <li><a href="fun-stuff.html">Fun Stuff</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <address>
+            Contact me at: <a href="mailto:110654247@uvu.edu">110654247@uvu.edu</a><br>
+            or call me at: <a href="tel:+12484345508">+1 (248) 434-5508</a>
+        </address>
+        <p>&bull; Copyright &copy; <span id="year"></span> Seth Ward</p>
+        <script>
+            document.getElementById('year').textContent = new Date().getFullYear();
+        </script>
+    </footer>
+</body>
+</html>
